@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+    color: #666;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    background-color: ##fff;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Domine', serif;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #F6742A;
+    text-align: center;
+}
+
+
+
+li p img {
+    float: left;
+    
+}
+
+img {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    
+}
+
+.main-header {
+    text-align: center;
+}
+
+.main-nav {
+    font-size: x-large;
+}
+
+.about, .about li {
+    margin:0;
+    padding:0;
+    
+}
+
+.about-list {
+    list-style:none;
+    text-align: left;
+    clear: left;   
+}
+
+.about-list img {
+    margin: 0 30px 10px 0;
+}
+
+.main-footer {
+    text-align: center;
+}
+
+
+
+
+
+
+/* Base Layout Styles */
+
+    /* Layout Containers */
+
+    .container {
+        padding-left: 1em;
+        padding-right: 1em;
+        
+    }
+
+
+  /* ================================= 
+  Media Queries
+==================================== */
+
+/* @media (min-width: 769px) { */
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1000px;
+        
+    }
+
+    .wrap {
+        min-height: calc(100vh - 18px);
+    }
+
+    .name,
+    .main-nav, 
+    .main-nav li {
+        display: inline-block;
+        text-align: center;
+       
+    }
+
+    
+/* } */
