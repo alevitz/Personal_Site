@@ -1,30 +1,61 @@
 
-* {
+*  {
     box-sizing: border-box;
-    font-family: 'Muli', sans-serif;
-    color: #666;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
 
 p {
-    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.25rem;
 }
 
-body {
+/* body {
     background-color: ##fff;
-}
+} */
 
-h2 {
+ body, html {
+    height: 100%;
+ }
+
+ .bg-image {
+    /* The image used */
+    background-image: url("EveningGGBridge.jpg");
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    /* transition: transform .5s; */
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+  
+ 
+
+h1, h2, h3 {
+    color: white;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Domine', serif;
-}
+    letter-spacing: 0.5rem;
+}  
 
 li a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
-    color: #F6742A;
-    text-align: center;
+    font-size: 15px;
+    color: white;
+    /* text-align: left; */
+    letter-spacing: 0.1rem;
+    /* border: solid white;
+    border-width: thin; */
+    margin: 10px;
 }
 
 
@@ -66,9 +97,10 @@ ul {
 }
 
 .about-list {
-    list-style:none;
-    text-align: left;
-    clear: left;   
+    display: inline-block;
+    text-align: center;
+    /* clear: left;   */
+    color: white; 
 }
 
 .about-list img {
@@ -102,22 +134,35 @@ ul {
 /* @media (min-width: 769px) { */
     .container {
         width: 80%;
-        margin: 0 auto;
+        margin: 225px auto;
         max-width: 1000px;
-        
+        border-bottom: solid white;
+        border-top: solid white;
+    
     }
 
     .wrap {
         min-height: calc(100vh - 18px);
+        margin: 20px 20px 0px 20px;
+        z-index: 2;
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 1000px;
+
     }
 
-    .name,
     .main-nav, 
-    .main-nav li {
+    .main-nav li,
+    li {
         display: inline-block;
-        text-align: center;
+        /* padding: 0px; */
+        /* text-align: left; */
        
     }
 
+    
     
 /* } */
