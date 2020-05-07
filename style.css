@@ -231,47 +231,6 @@ ul {
         /* text-align: center; */
         /* letter-spacing: 0.25rem; */
     }
-
-  /* ================================= 
-  Media Queries
-==================================== */
-
-/* @media (min-width: 769px) { */
-    @media screen and (max-width: 450px){
-        .main-nav li a {
-            font-size: 10px }
-        .container h1 {
-            font-size: 15px;
-        }
-        .container p {
-            font-size: 12px;
-        }
-        .container {
-            margin: 230px auto;
-        }
-        .opaque h2 {
-            font-size: 20px;
-        }
-        .opaque p {
-            font-size: 10px;
-        }
-        .self-photo {
-           max-width: 100px;
-           max-height: 100px; 
-        }
-        .box h3 {
-            font-size: 12px;
-            letter-spacing: 0;
-        }
-        .box p {
-            font-size: 10px;
-        }
-        .aboutphoto {
-            max-width: 100px;
-            min-width: 100px;
-        }
-        }
-
     .container {
         width: 80%;
         margin: 245px auto;
@@ -279,6 +238,9 @@ ul {
         border-bottom: solid white;
         border-top: solid white;
     }
+ 
+
+   
 
     .opaque {
         width: 80%;
@@ -316,7 +278,7 @@ ul {
     }
 
     .wrap {
-        min-height: calc(100vh - 18px);
+        /* min-height: calc(100vh - 18px); */
         /* margin: 0px 20px 0px 20px; */
         z-index: 2;
         position: absolute;
@@ -336,3 +298,46 @@ ul {
         /* text-align: left; */
        
     }
+
+     /* ================================= 
+  Media Queries
+==================================== */
+
+/* @media (min-width: 769px) { */
+    @media screen and (max-width: 450px){
+        .main-nav li a {
+            font-size: 10px }
+        .container h1 {
+            font-size: 15px;
+        }
+        .container p {
+            font-size: 12px;
+        }
+        .container {
+            margin: 175px auto;
+        }
+        .opaque h2 {
+            font-size: 15px;
+        }
+        .opaque p {
+            font-size: 10px;
+        }
+        .self-photo {
+           max-width: 100px;
+           max-height: 100px; 
+        }
+        .box {
+            padding: 0.5em;
+        }
+        .box h3 {
+            font-size: 12px;
+            letter-spacing: 0;
+        }
+        .box p {
+            font-size: 10px;
+        }
+        .aboutphoto {
+            max-width: 100px;
+            min-width: 100px;
+        }
+        }
