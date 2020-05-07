@@ -224,14 +224,20 @@ ul {
     .icons li a {
         font-size: 22px;
     }
-
+    .opaque p {
+        color: white;
+        font-size: 16px;
+        margin: 0px 0px 20px 0px;
+        /* text-align: center; */
+        /* letter-spacing: 0.25rem; */
+    }
 
   /* ================================= 
   Media Queries
 ==================================== */
 
 /* @media (min-width: 769px) { */
-    @media screen and (max-width: 320px){
+    @media screen and (max-width: 450px){
         .main-nav li a {
             font-size: 10px }
         .container h1 {
@@ -240,11 +246,32 @@ ul {
         .container p {
             font-size: 15px;
         }
+        .opaque h2 {
+            font-size: 20px;
+        }
+        .opaque p {
+            font-size: 10px;
+        }
+        .self-photo {
+           max-width: 100px;
+           max-height: 100px; 
+        }
+        .box h3 {
+            font-size: 12px;
+            letter-spacing: 0;
+        }
+        .box p {
+            font-size: 10px;
+        }
+        .aboutphoto {
+            max-width: 100px;
+            min-width: 100px;
+        }
         }
 
     .container {
         width: 80%;
-        margin: 225px auto;
+        margin: 245px auto;
         max-width: 1000px;
         border-bottom: solid white;
         border-top: solid white;
@@ -276,13 +303,7 @@ ul {
         color: inherit;
     }
 
-    .opaque p {
-        color: white;
-        font-size: 16px;
-        margin: 0px 0px 20px 0px;
-        /* text-align: center; */
-        /* letter-spacing: 0.25rem; */
-    }
+   
 
     .opaque a {
         transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
